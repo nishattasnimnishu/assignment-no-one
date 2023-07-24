@@ -4,11 +4,11 @@ body{
 .beautiful-flowers-container{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
-    padding: 0 100px;
-    
+    padding: 0 150px;
+    height: 550px;
 }
 .flowers{
-    padding: 100px 100px 0 0;
+    padding: 80px 140px 0 0;
     gap: 97px;
     display: inline;
     text-align: left;
@@ -21,7 +21,8 @@ body{
 .flower-p{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 18px;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 .flower-image{
     padding-top: 50px;
@@ -32,7 +33,7 @@ body{
 .btn-color{
     color: white;
     background-color: #E55473;
-    padding: 20px 43px;
+    padding: 15px 43px;
     border-radius: 7px;
     border-color: #E55473;
 }
@@ -272,6 +273,7 @@ body{
     height: 230px;
     text-align: center;
     padding: 80px;
+    margin-top: 100px;
 }
 .footer-h1{
     color: #E55473;
