@@ -36,6 +36,7 @@ body{
     border-radius: 7px;
     border-color: #E55473;
 }
+
 /* main section one start */
 .featured-flowers{
     background: #FFF;
@@ -60,7 +61,6 @@ body{
 }
 .featured-flowers-container{
     display: flex;
-
 }
 .flower{ 
     text-align: center;
@@ -98,7 +98,51 @@ body{
 }
 /* main section one end */
 
-
+/* bonus section */
+.about{
+    background-color: #ecd6df;
+    padding: 0 140px;
+}
+.section-h3{
+    color: #272727;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin: 0;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+}
+.section-p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-family: Open Sans;
+    padding-bottom: 80px;
+    padding-right: 100px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    text-align: center;
+    padding-bottom: 40px;
+    width: 200px;
+    height: 300px;
+} 
+.info-description{
+    color: #757575;
+}
+.info-p{
+    color: #272727;
+}
+.picture{
+    height: 25px;
+    width: 25px;
+}
+/* bonus section */
 
 /* main section two start */
 
@@ -148,7 +192,7 @@ body{
 /* main section three start */
 .instagram{
     background-color: #FFF;
-    padding: 100px;
+    padding: 60px 100px 100px 100px;
 }
 .instagram-h2{
     text-align: center;
@@ -176,8 +220,6 @@ body{
     padding-left: 20px;
 }
 /* main section three end */
-
-
 
 /* main section start */
 .banner{
@@ -223,4 +265,40 @@ body{
     height: 64px;
 }
 /* main section end */
+
+ /* footer section start */
+.footer{
+    background: #111010;
+    height: 230px;
+    text-align: center;
+    padding: 80px;
+}
+.footer-h1{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: 600;
+}
+.h1-color{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: 600;
+}
+.footer-p1{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-p2{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+ /* footer section end */
 
